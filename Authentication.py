@@ -103,8 +103,7 @@ def checkExistans(email,password):
         d = i.split(":")
         if (d[1] == email and d[2] == password):
             return d[0]
-        else:
-            return Login()
+    return Login()
 
 def Login():
     print("---------LOGIN------------")
